@@ -1,0 +1,4 @@
+alignment_method,eligible_arcs,mismatches,rate
+exact_window,61756,1416,0.02292894617527042
+spell_global,63556,1187,0.018676442822078167
+spell_window,63497,1527,0.024048380238436463

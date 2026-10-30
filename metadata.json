@@ -1,0 +1,100 @@
+{
+  "release_date": "2026-10-30",
+  "status": "exploratory_numerical_derivatives",
+  "sentence_pairs": 5124,
+  "learners": 924,
+  "L1_groups": 10,
+  "original_tokens": 97681,
+  "corrected_tokens": 98976,
+  "corrected_dependency_opportunities": 84010,
+  "eligible_arcs": 63497,
+  "mismatches": 1527,
+  "mismatch_rate": 0.024048380238436463,
+  "label_only": 737,
+  "head_only": 422,
+  "both": 368,
+  "year_counts": {
+    "2000": {
+      "learners": 853,
+      "sentences": 4686
+    },
+    "2001": {
+      "learners": 71,
+      "sentences": 438
+    }
+  },
+  "L1_counts": {
+    "Chinese": {
+      "learners": 66,
+      "sentences": 526
+    },
+    "French": {
+      "learners": 138,
+      "sentences": 514
+    },
+    "German": {
+      "learners": 69,
+      "sentences": 509
+    },
+    "Italian": {
+      "learners": 76,
+      "sentences": 514
+    },
+    "Japanese": {
+      "learners": 81,
+      "sentences": 503
+    },
+    "Korean": {
+      "learners": 86,
+      "sentences": 504
+    },
+    "Portuguese": {
+      "learners": 68,
+      "sentences": 514
+    },
+    "Russian": {
+      "learners": 82,
+      "sentences": 506
+    },
+    "Spanish": {
+      "learners": 184,
+      "sentences": 527
+    },
+    "Turkish": {
+      "learners": 74,
+      "sentences": 507
+    }
+  },
+  "annotation_version_diagnostics": "UD 2.3",
+  "source_archive_url": "https://people.csail.mit.edu/berzak/tle-2.3-1711/data.zip",
+  "source_archive_sha256": "81e517a87766482dca786a15cfffc2b98d4d58b39b475a04baf6cf854c20ba54",
+  "diagnostic_software": {
+    "Python": "3.12.9",
+    "NumPy": "2.3.3",
+    "pandas": "2.3.3",
+    "SciPy": "1.16.2",
+    "statsmodels": "0.14.5",
+    "matplotlib": "3.10.7"
+  },
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20261023,
+  "pooled_relation_bootstrap_seed": 20261024,
+  "alignment_window": 3,
+  "spelling_restoration_diagnostics": true,
+  "reference_CLC_mean": 27.88203463203463,
+  "rates_unit": "proportion, not percent",
+  "sentence_level_SASA_scores_included": false,
+  "omitted": [
+    "original_or_corrected_text",
+    "lexical_forms",
+    "FCE_XML",
+    "individual_CLC_E1_E4_marks",
+    "age_records",
+    "original_document_identifiers",
+    "identifier_crosswalk",
+    "sentence_level_SASA_scores",
+    "Transformer_vectors_and_predictions",
+    "code"
+  ],
+  "scope": "Dependency diagnostics only, not a SASA scoring or model-replication dataset"
+}
